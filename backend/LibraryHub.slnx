@@ -1,9 +1,15 @@
 <Solution>
   <Folder Name="/Catalog/">
     <Project Path="src/Catalog/Catalog.Application/Catalog.Application.csproj" />
+    <Project Path="src/Catalog/Catalog.Contracts/Catalog.Contracts.csproj" />
     <Project Path="src/Catalog/Catalog.Domain/Catalog.Domain.csproj" />
     <Project Path="src/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj" />
     <Project Path="src/Catalog/Catalog.Presentation/Catalog.Presentation.csproj" />
   </Folder>
-  <Project Path="src/SharedKernel/SharedKernel.csproj" />
+  <Folder Name="/SharedKernel/">
+    <Project Path="src/SharedKernel/SharedKernel.Application/SharedKernel.Application.csproj" />
+    <Project Path="src/SharedKernel/SharedKernel.Contracts/SharedKernel.Contracts.csproj" />
+    <Project Path="src/SharedKernel/SharedKernel.Domain/SharedKernel.Domain.csproj" />
+    <Project Path="src/SharedKernel/SharedKernel.Infrastructure/SharedKernel.Infrastructure.csproj" />
+  </Folder>
 </Solution>

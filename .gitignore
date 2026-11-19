@@ -4,3 +4,4 @@
 [Ll]og/
 [Ll]ogs/
 appsettings.*.json
+*.DotSettings.user

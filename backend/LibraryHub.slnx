@@ -12,4 +12,6 @@
     <Project Path="src/SharedKernel/SharedKernel.Domain/SharedKernel.Domain.csproj" />
     <Project Path="src/SharedKernel/SharedKernel.Infrastructure/SharedKernel.Infrastructure.csproj" />
   </Folder>
+  <Folder Name="/Tests/" />
+  <Folder Name="/Tests/Catalog.Tests/" />
 </Solution>
